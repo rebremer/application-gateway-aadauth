@@ -2,8 +2,8 @@
 
 Extension of this [blog](http://thewindowsupdate.com/2019/04/01/setting-up-application-gateway-with-an-app-service-that-uses-azure-active-directory-authentication/), following steps need to be executed in this github:
 
-- 1. Configure web app
-- 2. Configure application gateway
+1. Configure web app
+2. Configure application gateway
 
 It is assumed the web app and application gateway are already deployed, in which the application gateway uses the web app as its backend. See this [link](https://docs.microsoft.com/en-us/azure/application-gateway/configure-web-app-portal) how to do this. Make also sure that PowerShell is installed with the Az modules.
 
