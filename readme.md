@@ -93,6 +93,6 @@ Finally, the web app can be locked down for the public internet and shall be onl
 
 ![2d1. Access restrictions web app only allowing VNET application gateway](https://github.com/rebremer/application-gateway-aadauth/blob/master/images/lockdown_webapp_vnet_gateway.png "2d1. Access restrictions web app only allowing VNET application gateway")
 
-When everything is configured successfully, you can visit to https://<<your custom domain>> and authentication using AAD without being redirected to web app, see also below.
+When everything is configured successfully, you can visit to https://your_custom_domain and authenticate using AAD without being redirected to web app, see also below.
 
 ![2d2. Application gateway AAD auth using custom domain](https://github.com/rebremer/application-gateway-aadauth/blob/master/images/aadauth_customdomain_application_gateway.png "2d2. Application gateway AAD auth using custom domain")
