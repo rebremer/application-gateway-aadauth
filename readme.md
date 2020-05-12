@@ -1,6 +1,6 @@
 ## Set up an Application Gateway in front of Web App that has Azure AD authentication enabled   ##
 
-Extension of this [blog](http://thewindowsupdate.com/2019/04/01/setting-up-application-gateway-with-an-app-service-that-uses-azure-active-directory-authentication/), following steps need to be executed in this github:
+Extension of this [blog](https://techcommunity.microsoft.com/t5/azure-app-service/setting-up-application-gateway-with-an-app-service-that-uses/ba-p/392490), following steps need to be executed in this github:
 
 1. Configure web app
 2. Configure application gateway
