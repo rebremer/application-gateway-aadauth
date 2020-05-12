@@ -2,8 +2,8 @@
 
 Extension of this [blog](http://thewindowsupdate.com/2019/04/01/setting-up-application-gateway-with-an-app-service-that-uses-azure-active-directory-authentication/), following steps need to be executed in this github:
 
-- Configure web app
-- Configure application gateway
+- 1. Configure web app
+- 2. Configure application gateway
 
 It is assumed the web app and application gateway are already deployed, in which the application gateway uses the web app as its backend. See this [link](https://docs.microsoft.com/en-us/azure/application-gateway/configure-web-app-portal) how to do this. Make also sure that PowerShell is installed with the Az modules.
 
@@ -38,7 +38,7 @@ When all steps are executed successfully, the configuration looks as follows:
 In this [link](https://docs.microsoft.com/en-us/azure/app-service/configure-authentication-provider-aad#-configure-with-express-settings), it is explained how to set up AAD authentication for a web app. One remark:
 - To automate AAD auth with advanced settings, see this [script](https://github.com/rebremer/managed_identity_authentication/blob/master/AAD_auth_ADFv2_MI_to_Azure_Function.ps1).
 
-### 1d. Change callback URL in app registration ###
+#### 1d. Change callback URL in app registration ####
 
 In step 1c, an app registration was created that is linked to the web app. In this web app, the callback URL of the custom domain name needs to be added. Look up the app registration in Azure Active Directory (using the same name as the web app) and add the domain, see also below.
 
