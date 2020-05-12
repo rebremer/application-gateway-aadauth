@@ -25,7 +25,7 @@ In this [link](https://docs.microsoft.com/en-us/azure/app-service/manage-custom-
 
 #### 1b. Add SSL certificate to application gateway ####
 
-In step 1a, a custom hostname was assigend to the web app. In step 1b the custom domain name will be secured using an SSL certificate. Execute the steps in this [link](https://docs.microsoft.com/nl-nl/azure/app-service/configure-ssl-certificate#create-a-free-certificate-preview). One remark:
+In step 1a, a custom hostname was assigend to the web app. In step 1b the custom domain name will be secured using an SSL certificate. Execute the steps in this [link](https://docs.microsoft.com/nl-nl/azure/app-service/configure-ssl-certificate#create-a-free-certificate-preview) in which a free SSL certificate is created. One remark:
 
 - Make secure that a CNAME record is added in DNS zone in which www refers to link of web app
 
