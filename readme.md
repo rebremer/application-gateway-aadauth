@@ -12,7 +12,7 @@ It is assumed the web app and application gateway are already deployed, in which
 The following steps need to be executed:
 
 - 1a. Assign custom domain to web app
-- 1b. Add SSL certificate to application gateway
+- 1b. Add SSL certificate to web app
 - 1c. Turn on AAD authentication of web app
 - 1d. Change callback URL in app registration
 
@@ -23,11 +23,11 @@ In this [link](https://docs.microsoft.com/en-us/azure/app-service/manage-custom-
 - GoDaddy is used as provider, domain name cost 12E per year and cannot be revoked.
 - Once domain is added, it is marked as insecure. This will be fixed in next step.
 
-#### 1b. Add SSL certificate to application gateway ####
+#### 1b. Add SSL certificate to web app ####
 
 In step 1a, a custom hostname was assigend to the web app. In step 1b the custom domain name will be secured using an SSL certificate. Execute the steps in this [link](https://docs.microsoft.com/nl-nl/azure/app-service/configure-ssl-certificate#create-a-free-certificate-preview) in which a free SSL certificate is created. One remark:
 
-- Make secure that a CNAME record is added in DNS zone in which www refers to link of web app
+- Make secure that a CNAME record is added in DNS zone in which www refers to link of web app, otherwise you cannot create free certificate from web app. You then have to pay for a certificate or create a self-signed certificate.
 
 When all steps are executed successfully, the configuration looks as follows:
 
