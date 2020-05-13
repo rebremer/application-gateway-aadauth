@@ -56,7 +56,7 @@ The following steps need to be executed:
 
 #### 2a. Add SSL certificate to application gateway ####
 
-In this step, an SSL certificate is created and added as Listener in the application gateway. This enables the user to use the custom domain name using HTTPS and is also required since the callback URL in step 1d only supports HTTPS. See this [link](https://docs.microsoft.com/en-us/azure/application-gateway/create-ssl-portal#create-a-self-signed-certificate) how to create an self-signed SSL certificate and to add it as listener to web app. See also below when successfully configured:
+In this step, an SSL certificate is created and added as Listener in the application gateway. This enables the user to use the custom domain name using HTTPS and is also required since the callback URL in step 1d only supports HTTPS. See this [link](https://docs.microsoft.com/en-us/azure/application-gateway/create-ssl-portal#create-a-self-signed-certificate) how to create a self-signed SSL certificate and to add it as listener to web app. See also below when successfully configured:
 
 ![2a. Self-signed certificate as listener in gateway](https://github.com/rebremer/application-gateway-aadauth/blob/master/images/selfsigned_ssl_listener.png "2a. Self-signed certificate as listener in gateway")
 
